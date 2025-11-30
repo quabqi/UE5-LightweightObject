@@ -1,0 +1,28 @@
+﻿{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "LightweightObject",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "quabqi",
+	"CreatedByURL": "https://www.zhihu.com/people/quabqi",
+	"DocsURL": "https://www.zhihu.com/people/quabqi",
+	"MarketplaceURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "LightweightObject",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "LightweightObjectEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
