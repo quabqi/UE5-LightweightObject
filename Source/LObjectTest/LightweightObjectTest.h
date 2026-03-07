@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "LightweightObject.h"
-#include "LightweightObjectTestClasses.generated.h"
+#include "LightweightObjectTest.generated.h"
 
 /** Simple test class with basic properties */
 UCLASS(Blueprintable)
@@ -59,39 +59,4 @@ UCLASS(Blueprintable)
 class UTestLightweightObjectEmpty : public ULightweightObjectBase
 {
 	GENERATED_BODY()
-};
-
-/** Test empty class renamed for clarity */
-UCLASS(Blueprintable)
-class UTestLightweightObjectEmptyClass : public ULightweightObjectBase
-{
-	GENERATED_BODY()
-};
-
-/** Spec test object */
-UCLASS(Blueprintable)
-class USpecTestObject : public ULightweightObjectBase
-{
-	GENERATED_BODY()
-
-public:
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 Value = 0;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FString Label = TEXT("Default");
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	float Ratio = 1.0f;
-};
-
-/** Spec test child class */
-UCLASS(Blueprintable)
-class USpecTestObjectChild : public USpecTestObject
-{
-	GENERATED_BODY()
-
-public:
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 ChildValue = 100;
 };

@@ -1,8 +1,6 @@
 // LightweightObject Unit Tests
-
+#include "LightweightObjectTest.h"
 #include "Misc/AutomationTest.h"
-#include "CoreMinimal.h"
-#include "LightweightObjectTestClasses.h"
 
 #if WITH_DEV_AUTOMATION_TESTS
 
